@@ -1,7 +1,37 @@
-html {
-  background-color: yellow;
+html{
+  background-color: white;
 }
 
 h1{
   color: red;
+}
+
+header {
+  padding:0em;
+  margin:0em;
+  background-color: yellow;
+}
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  text-align: center;
+  color: hotpink;
+}
+
+nav li {
+  display: inline-block;
+  color: black;
+  background-color: hotpink;
+  border-radius: 4px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0.5em;
+}
+
+a:hover {
+  color: white;
 }
