@@ -2,10 +2,6 @@ html{
   background-color: white;
 }
 
-h1{
-  color: red;
-}
-
 header {
   padding:0em;
   margin:0em;
@@ -16,15 +12,52 @@ h1 {
   font-family: 'Sigmar One', cursive;
   text-align: center;
   color: hotpink;
+  margin: 0;
 }
 
-nav li {
+h2 {
+  font-family: 'Sigmar One', cursive;
+  color: hotpink;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-family: 'Sigmar One', cursive;
+  color: hotpink;
+  font-size: 1rem;
+}
+
+p{
+  font-size: 0.8rem;
+  line-height: 1.4em;
+  color: black;
+}
+
+.quotation-mark{
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: georgia;
+  font-style: italic;
+  display: block;
+}
+
+blockquote{
+  font-style: italic;
+  font-family: georgia;
+  font-size: 0.8rem;
+  line-height: 1.6em;
+  text-align: center;
+  color: green;
+  margin: 0em;
+}
+
+li {
   display: inline-block;
   color: black;
   background-color: hotpink;
   border-radius: 4px;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 0.5em 0em;
 }
 
 nav a {
@@ -32,6 +65,57 @@ nav a {
   margin: 0.5em;
 }
 
+ol{
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+dd{
+ margin: 0em 0em .5em;
+}
+
+dt{
+  margin: 0em 0em 0.2em;
+  font-weight: bold;
+
+}
+
 a:hover {
   color: white;
+}
+
+img {
+  width: 100%;
+  margin: 0em 0em 0.4em;
+}
+
+figure {
+  border: 2px solid beige;
+  background-color: lightyellow;
+  border-radius: 7px;
+  padding: .5em;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.7rem;
+}
+
+cite{
+  display: block;
+  padding: 0em 0em 1.7em 0em;
+}
+
+.line-separator{
+height:3px;
+background:yellow;
+border-bottom:1px solid yellow;
+}
+
+.per{
+  font-style: italic;
+  font-family: georgia;
 }
