@@ -5,7 +5,7 @@ html{
 header {
   padding:0em;
   margin:0em;
-  background-color: yellow;
+  background-color: pink;
 }
 
 h1 {
@@ -39,6 +39,7 @@ p{
   font-family: georgia;
   font-style: italic;
   display: block;
+  color: purple;
 }
 
 blockquote{
@@ -47,7 +48,7 @@ blockquote{
   font-size: 0.8rem;
   line-height: 1.6em;
   text-align: center;
-  color: green;
+  color: purple;
   margin: 0em;
 }
 
@@ -58,6 +59,10 @@ li {
   border-radius: 4px;
   padding: 0.5em;
   margin: 0.5em 0em;
+}
+
+li:hover{
+  background-color: white;
 }
 
 nav a {
@@ -79,11 +84,6 @@ dd{
 dt{
   margin: 0em 0em 0.2em;
   font-weight: bold;
-
-}
-
-a:hover {
-  color: white;
 }
 
 img {
@@ -96,6 +96,7 @@ figure {
   background-color: lightyellow;
   border-radius: 7px;
   padding: .5em;
+  margin: 0;
 }
 
 figcaption {
@@ -111,11 +112,26 @@ cite{
 
 .line-separator{
 height:3px;
-background:yellow;
-border-bottom:1px solid yellow;
+background:pink;
+border-bottom:1px solid pink;
 }
 
 .per{
   font-style: italic;
   font-family: georgia;
+}
+
+footer{
+  background-color:pink;
+  text-align: center;
+  padding: .2em;
+  margin: 1em 0em;
+  font-family: georgia;
+}
+
+.wiki{
+  font-family: georgia;
+  color: red;
+  text-decoration: underline;
+
 }
